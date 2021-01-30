@@ -1,0 +1,51 @@
+h1{
+    color : brown;
+    margin-left: 25px;
+}
+.header{
+    background-color: lightblue;
+    display:flex;
+    justify-content: space-between;
+}
+.menu{
+    margin-right: 25px; 
+}
+.menu a{
+    margin-left: 10px;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+h2,p{
+    text-align: center;
+    font-size: 15px;
+    color: #264e75;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: #d9dbdf;
+}
+
+.item{
+    position: relative
+}
+.item p{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.3;
+}
